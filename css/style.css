@@ -1,0 +1,150 @@
+@font-face{
+    font-family: Corporate;
+    src: url(../libs/Corporate\ S\ Bold.otf)   
+}
+@font-face{
+    font-family: Roboto Light;
+    src: url(../libs/3962.ttf)
+}
+@font-face{
+    font-family: Font Awesome;
+    src: url(../libs/fa-brands-400.ttf)
+}
+.header {
+    height: 90px;
+    background-color: #fff;
+    display: flex; 
+    
+}
+.logo {
+    margin-top: 27px;  
+    float: left;
+}
+.nav-top__items { 
+    display: flex;   
+    justify-content: flex-end;
+}
+.nav-top li {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Corporate;  
+    padding: 40px 15px 25px 20px;
+}
+.nav-top__items li a {
+    text-decoration: none;
+    color: #777777;
+}
+
+
+.nav-top__items li.activ a,
+.nav-top__items li:hover a {
+    color:  black;
+}
+.slider{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+}
+
+.text { 
+    z-index: 5;
+    font-family: 'Roboto Light',  sans-serif; 
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 0.4em;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 80px;
+    position: absolute;
+	top: 200px;
+	width: 100%;
+   
+}
+.text__h2{
+    display: inline;
+    font-size: 40pt;
+    color: #fff;
+    background-color: black;
+    padding: 10px;
+   
+}
+.nav-center{
+    background-color: #fafafa;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Corporate;  
+    padding: 40px 15px 25px 20px;
+}
+.nav-center__items{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-center__items ul{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-center__items li{
+    padding: 15px;
+   
+}
+.nav-center__items li a {
+    text-decoration: none;
+    color: #777777;
+}
+.nav-center__items li.activ a,
+.nav-center__items li:hover a {
+    color:  black;
+}
+.line{
+    height: 80%;
+    padding-top: 10px;
+}
+.portfolio img{
+  width: 360px;  
+  padding: 20px;
+  color: #000;
+}
+.portfolio{
+    background-color: #fafafa;
+    height: 1450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.portfolio img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.footer{
+    background-color: #fff;
+    margin-top: 50px;
+    height: 200px;
+    font-family: Font Awesome;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer img{
+    margin-bottom: 40px;
+}
+i{
+    font-size: 15pt;
+    color: #777777;
+    padding: 30px 40px 30px 40px;
+}
+.footer__brands{
+    margin-top: 10px;
+}
+hr {
+    border: none; 
+    color: #e1e1e1; 
+    background-color: #e1e1e1; 
+    height: 1px; 
+    width: 100%;
+}

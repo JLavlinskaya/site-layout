@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LIAM</title>
+    <link rel="stylesheet" href="libs/reset.css" />
+    <link rel="stylesheet" href="libs/960_12_col.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link href="css/flickity.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    
+</head>
+
+<body>
+    <header class="header">
+        <div class="container_12">
+            <div class="grid_2">
+                <a href="#" class="logo"><img src="img/logo.png" height="35px" alt="pages logo"></a>
+            </div>
+            <div class="grid_10">
+                <nav class="nav-top">
+                    <ul class="nav-top__items">
+                        <li class="activ"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;"
+                                    xml:space="preserve" width="20px" height="20px" class="">
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6    s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0    C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2    s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"
+                                                    data-original="#000000" class="active-path" data-old_color="#000000"
+                                                    fill="currentColor" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a><span class="top_hover"></span></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        
+        <div class="carousel">
+            <div class="slide slider-one">
+                <span class="text">
+                    <h2 class="text__h2">lian creative agency</h2>
+                    <h3 class="text__h3">Minimal Freelance Portfolio</h3>
+                </span>
+                <img src="img/Background1.png">    
+            </div>
+          <div class="slideslider-one">
+            <span class="text">
+                <h2 class="text__h2">Design & Branding</h2>
+                <h3 class="text__h3">We deliver quality results</h3>
+            </span>
+            <img src="img/Background2.png">    
+            </div>
+            </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="dist/flickity.pkgd.js"></script>
+        <script>
+        $('.carousel').flickity( {
+          // options, defaults listed
+        
+          accessibility: true,
+          // enable keyboard navigation, pressing left & right keys
+        
+          autoPlay: true,
+          // advances to the next cell
+          // if true, default is 3 seconds
+          // or set time between advances in milliseconds
+          // i.e. `autoPlay: 1000` will advance every 1 second
+        
+          cellAlign: 'center',
+          // alignment of cells, 'center', 'left', or 'right'
+          // or a decimal 0-1, 0 is beginning (left) of container, 1 is end (right)
+        
+          cellSelector: undefined,
+          // specify selector for cell elements
+        
+          contain: false,
+          // will contain cells to container
+          // so no excess scroll at beginning or end
+          // has no effect if wrapAround is enabled
+        
+          draggable: true,
+          // enables dragging & flicking
+        
+          freeScroll: false,
+          // enables content to be freely scrolled and flicked
+          // without aligning cells
+        
+          friction: 0.2,
+          // smaller number = easier to flick farther
+        
+          imagesLoaded: false,
+          // if imagesLoaded is present, Flickity can re-position cells
+          // once images are loaded
+        
+          initialIndex: 0,
+          // zero-based index of the initial selected cell
+        
+          percentPosition: true,
+          // sets positioning in percent values, rather than pixels
+          // Enable if items have percent widths
+          // Disable if items have pixel widths, like images
+        
+          prevNextButtons: true,
+          // creates and enables buttons to click to previous & next cells
+        
+          pageDots: true,
+          // create and enable page dots
+        
+          resizeBound: true,
+          // listens to window resize events to adjust size & positions
+        
+          watchCSS: false,
+          // watches the content of :after of the element
+          // activates if #element:after { content: 'flickity' }
+          // IE8 and Android 2.3 do not support watching :after
+          // set watch: 'fallbackOn' to enable for these browsers
+        
+          wrapAround: false
+          // at end of cells, wraps-around to first for infinite scrolling
+        
+        });
+        </script>
+        
+        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-36251023-1']);
+          _gaq.push(['_setDomainName', 'jqueryscript.net']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        
+        </script>
+        <div class="nav-center"><a name="portfolio"></a>
+        <div class="nav-center__items">
+            <hr>
+            <ul >
+                <li class="activ"><a href="#">all</a></li>
+                <img src="img/line.png" alt="line" class="line">
+                <li><a href="#">logo</a></li>
+                <img src="img/line.png" alt="line" class="line">
+                <li><a href="#">mobile app</a></li>
+                <img src="img/line.png" alt="line" class="line">
+                <li><a href="#">wordpress</a></li>
+                <img src="img/line.png" alt="line" class="line">
+                <li><a href="#">web design</a></li>
+                <img src="img/line.png" alt="line" class="line">
+                <li><a href="#">ui/ux</a></li>
+                <img src="img/line.png" alt="line" class="line">
+                <li><a href="#">branding</a></li>
+            </ul>
+            <hr>
+        </div>
+                        
+
+        </div>
+            
+        <div class="portfolio"> 
+            <img src="img/Layer1.png">
+            <img src="img/Layer2.png">
+            <img src="img/Layer3.png">
+            <img src="img/Layer4.png">
+            <img src="img/Layer5.png">
+            <img src="img/Layer6.png">
+            <img src="img/Layer7.png">
+            <img src="img/Layer8.png">
+            <img src="img/Layer9.png">
+            <img src="img/Layer10.png">
+
+        </div>
+    
+    </section>
+
+    <footer class="footer"><a name="contact"></a>
+        <img src="img/logo.png" height="35px" alt="pages logo">
+
+        <hr>
+        <div class="footer__brands">
+            <i class="fa fa-facebook-f" aria-hidden="true"></i>
+            <i class="fa fa-google-plus-g" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-dribbble" aria-hidden="true"></i>
+            <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+           
+        </div>
+        <hr>
+    </footer>
+      
+
+</body>
+
+</html>
